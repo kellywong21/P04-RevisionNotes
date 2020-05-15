@@ -16,7 +16,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
-        android:id="@+id/editTextNote"
+        android:id="@+id/etNote"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -30,38 +30,38 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <RadioGroup
-        android:id="@+id/radioGroupStars"
+        android:id="@+id/rgStars"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/rb1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="@string/one" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/two" />
 
         <RadioButton
-            android:id="@+id/radio3"
+            android:id="@+id/rb3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/three" />
 
         <RadioButton
-            android:id="@+id/radio4"
+            android:id="@+id/rb4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/four" />
 
         <RadioButton
-            android:id="@+id/radio5"
+            android:id="@+id/rb5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/five" />
@@ -73,14 +73,14 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/buttonInsertNote"
+            android:id="@+id/btnInsertNote"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/insert" />
 
         <Button
-            android:id="@+id/buttonShowList"
+            android:id="@+id/btnShowList"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
